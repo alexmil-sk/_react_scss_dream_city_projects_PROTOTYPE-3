@@ -1,0 +1,75 @@
+//@charset "UTF-8";
+@import "./null.scss";
+
+//== <> =======================================================
+
+@font-face {
+	font-family: "AdventPro Thin";
+	src: url("/fonts/AdventPro/AdventPro-Thin.woff2") format("woff2"),
+		url("/fonts/AdventPro/AdventPro-Thin.woff") format("woff"),
+		url("/fonts/AdventPro/AdventPro-Thin.ttf") format("truetype");
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "AdventPro Regular";
+	src: url("/fonts/AdventPro/AdventPro_SemiExpanded-Regular.woff2") format("woff2"),
+		url("/fonts/AdventPro/AdventPro-Regular.woff") format("woff"),
+		url("/fonts/AdventPro/AdventPro-Regular.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "AdventPro Bold";
+	src: url("/fonts/AdventPro/AdventPro-Bold.woff2") format("woff2"),
+		url("/fonts/AdventPro/AdventPro-Bold.woff") format("woff"),
+		url("/fonts/AdventPro/AdventPro-Bold.ttf") format("truetype");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Lobster";
+	src: url("/fonts/Lobster/Lobster-Regular.woff2") format("woff2"),
+		url("/fonts/Lobster/Lobster-Regular.woff") format("woff"),
+		url("/fonts/Lobster/Lobster-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Bebas Neue Regular";
+	src: url("/fonts/BebasNeue/BebasNeue-Regular.woff2") format("woff2"),
+		url("/fonts/BebasNeue/BebasNeue-Regular.woff") format("woff"),
+		url("/fonts/BebasNeue/BebasNeue-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+//== </ FONTS> =======================================================
+
+/*Variables*/
+$main-bg-color: #011628;
+$menu-bg-color: #0e113e;
+
+//Templates
+%myborder {
+	//	@extend %myborder;
+	border: 1px solid red;
+}
+
+//Mixins
+@mixin fontType($family, $fz, $lh, $color) {
+	//@include fontType($family, $fz, $lh, $color)
+	font-family: $family;
+	font-size: $fz;
+	line-height: $lh;
+	color: $color;
+}
