@@ -1,6 +1,6 @@
-import "./ObjectsListComponent.scss"
+import "./ObjectsListComponentRu.scss"
 
-export default function ObjectsComponent() {
+export default function ObjectsComponentRu() {
 	return (
 		<div className="fullscreen bg">
 

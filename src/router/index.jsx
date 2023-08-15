@@ -1,19 +1,16 @@
 import { createBrowserRouter } from "react-router-dom";
-import LayoutSk from "../components/sk/LayoutSk/LayoutSk.jsx";
-import HomePageSk from "/src/pages/sk/HomePageSk/HomePageSk.jsx";
-
 import IntroPage from "/src/pages/IntroPage/IntroPage.jsx";
 
 import {
 	Layout,
-	HomePage,
+	HomePageRu,
 	ObjectPage,
 	NotFoundPage,
 	ContactsPageRu,
 	PostsPage,
 	PostItemPage,
 	PostItemEditPage,
-	CreatePostPage,
+	CreatePostPageRu,
 	OurTeam,
 	OurFotos,
 	Menu,
@@ -22,11 +19,16 @@ import {
 	TodosPage
 } from "./router-ru.jsx";
 
+import {
+	LayoutSk,
+	HomePageSk
+} from "./router-sk.jsx";
+
 
 import { loaderPosts } from "/src/pages/ru/PostsPage/PostsPage.jsx";
 import { loaderPostItem } from "/src/pages/ru/PostItemPage/PostItemPage.jsx";
 import { loaderEditPost, editPostAction } from "/src/pages/ru/PostItemEditPage/PostItemEditPage.jsx";
-import { createPostAction } from "/src/pages/ru/CreatePostPage/CreatePostPage.jsx";
+import { createPostAction } from "/src/pages/ru/CreatePostPageRu/CreatePostPageRu.jsx";
 
 import ErrorBoundary from "../UI/ErrorBoundary/ErrorBoundary.jsx";
 
@@ -42,7 +44,7 @@ const router = createBrowserRouter([
 		children: [
 			{
 				path: "home",
-				element: <HomePage />,
+				element: <HomePageRu />,
 			},
 			{
 				path: "objects",
@@ -84,7 +86,7 @@ const router = createBrowserRouter([
 			},
 			{
 				path: "posts/new",
-				element: <CreatePostPage />,
+				element: <CreatePostPageRu />,
 				action: createPostAction,
 				errorElement: <ErrorBoundary />,
 			},

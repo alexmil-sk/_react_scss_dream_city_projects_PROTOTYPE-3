@@ -1,14 +1,14 @@
 
 // import IntroComponent from "../../components/Intro/IntroComponent.jsx";
-import ObjectsListComponent from "/src/components/ru/ObjectsList/ObjectsListComponent.jsx";
-import GalleryComponent from "/src/components/ru/Gallery/GalleryComponent.jsx";
-import SliderComponent from "/src/components/ru/Slider/SliderComponent.jsx";
+import ObjectsListComponentSk from "/src/components/sk/ObjectsListSk/ObjectsListComponentSk.jsx";
+import GalleryComponentSk from "/src/components/sk/GallerySk/GalleryComponentSk.jsx";
+import SliderComponentSk from "/src/components/sk/SliderSk/SliderComponentSk.jsx";
 import "./HomePageSk.scss";
 import { motion } from "framer-motion";
 import { framerOpacity } from "/src/js/animationFramerSettings.js";
 
 
-function HomePage() {
+function HomePageSk() {
 
 	return (
 		<motion.div
@@ -20,7 +20,7 @@ function HomePage() {
 			
 			<div className="fullscreen foto__container_1"></div>
 
-			<SliderComponent />
+			<SliderComponentSk />
 
 			<div className="fullscreen foto__container_2"></div>
 
@@ -31,7 +31,7 @@ function HomePage() {
 
 			<div className="fullscreen foto__container_4"></div>
 
-			<ObjectsListComponent />
+			<ObjectsListComponentSk />
 
 			<div className="fullscreen foto__container_5"></div>
 
@@ -41,10 +41,10 @@ function HomePage() {
 
 			<div className="fullscreen foto__container_7"></div>
 
-			<GalleryComponent />
+			<GalleryComponentSk />
 
 		</motion.div >
 	)
 }
 
-export default HomePage;
+export default HomePageSk;

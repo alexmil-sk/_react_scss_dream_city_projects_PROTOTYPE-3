@@ -1,10 +1,10 @@
 import { Form } from "react-router-dom";
-import "./NewPost.scss";
+import "./NewPostRu.scss";
 
-function NewPost({ submitting}) {
+function NewPostRu({ submitting}) {
 	return (
 		<>
-			<Form action="/posts/new" method="post" className="create-post__form">
+			<Form action="/ru/posts/new" method="post" className="create-post__form">
 				<div className="form__title">
 					<label htmlFor="title">Title</label>
 					<input type="text" name="title" id="title" />
@@ -20,4 +20,4 @@ function NewPost({ submitting}) {
 	)
 }
 
-export default NewPost
+export default NewPostRu;

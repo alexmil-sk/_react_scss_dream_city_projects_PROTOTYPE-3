@@ -1,9 +1,9 @@
-import "./CreatePostPage.scss";
-import NewPost from "/src/components/ru/NewPost/NewPost.jsx";
+import "./CreatePostPageRu.scss";
+import NewPostRu from "/src/components/ru/NewPostRu/NewPostRu.jsx";
 import { redirect, useNavigation, Link } from "react-router-dom";
 
 
-function CreatePostPage() {
+function CreatePostPageRu() {
 
 	const navigation = useNavigation();
 
@@ -11,11 +11,11 @@ function CreatePostPage() {
 		<div className="create-post__wrapper">
 			<div className="create-post__container">
 				<h1>Create Post Page</h1>
-				<NewPost
+				<NewPostRu
 					submitting={navigation.state === 'submitting'}
 				/>
 				<div className="block__btn">
-					<Link to="/posts"><button name="posts-list">To List of Posts</button></Link>
+					<Link to="/ru/posts"><button name="posts-list">To List of Posts</button></Link>
 				</div>
 			</div>
 		</div>
@@ -44,7 +44,7 @@ export const createPostAction = async ({ request }) => {
 	};
 	const post = await createPost(newPost);
 
-	return redirect("/posts" + post.id);
+	return redirect("/ru/posts" + post.id);
 }
 
-export default CreatePostPage;
+export default CreatePostPageRu;

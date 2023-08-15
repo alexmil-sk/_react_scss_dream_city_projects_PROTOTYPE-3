@@ -1,14 +1,14 @@
 
 // import IntroComponent from "../../components/Intro/IntroComponent.jsx";
-import ObjectsListComponent from "/src/components/ru/ObjectsList/ObjectsListComponent.jsx";
+import ObjectsListComponentRu from "/src/components/ru/ObjectsListRu/ObjectsListComponentRu.jsx";
 import GalleryComponent from "/src/components/ru/Gallery/GalleryComponent.jsx";
 import SliderComponent from "/src/components/ru/Slider/SliderComponent.jsx";
-import "./HomePage.scss";
+import "./HomePageRu.scss";
 import { motion } from "framer-motion";
 import { framerOpacity } from "/src/js/animationFramerSettings.js";
 
 
-function HomePage() {
+function HomePageRu() {
 
 	return (
 		<motion.div
@@ -31,7 +31,7 @@ function HomePage() {
 
 			<div className="fullscreen foto__container_4"></div>
 
-			<ObjectsListComponent />
+			<ObjectsListComponentRu />
 
 			<div className="fullscreen foto__container_5"></div>
 
@@ -47,4 +47,4 @@ function HomePage() {
 	)
 }
 
-export default HomePage;
+export default HomePageRu;
