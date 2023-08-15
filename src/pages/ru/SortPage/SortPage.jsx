@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import ButtonCategory from "./ButtonCategory.jsx";
 import CardsCategory from "./CardsCategory.jsx";
 import { data } from "./data.js";
-import MenuMotion from "/src/components/MenuMotion/MenuMotion.jsx";
+import MenuMotion from "/src/components/ru/MenuMotion/MenuMotion.jsx";
 import { framerFallingDown } from "/src/js/animationFramerSettings.js";
 
 

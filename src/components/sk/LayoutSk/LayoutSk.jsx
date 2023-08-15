@@ -1,7 +1,7 @@
-import "./Layout.scss";
+import "./LayoutSk.scss";
 import { Outlet } from "react-router-dom";
-import Navigation from "/src/components/Navigation/Navigation.jsx";
-import Footer from "/src/components/Footer/Footer.jsx";
+import Navigation from "/src/components/ru/Navigation/Navigation.jsx";
+import Footer from "/src/components/ru/Footer/Footer.jsx";
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 

@@ -1,8 +1,8 @@
 
 // import IntroComponent from "../../components/Intro/IntroComponent.jsx";
-import ObjectsListComponent from "../../components/ObjectsList/ObjectsListComponent.jsx";
-import GalleryComponent from "../../components/Gallery/GalleryComponent.jsx";
-import SliderComponent from "../../components/Slider/SliderComponent.jsx";
+import ObjectsListComponent from "/src/components/ru/ObjectsList/ObjectsListComponent.jsx";
+import GalleryComponent from "/src/components/ru/Gallery/GalleryComponent.jsx";
+import SliderComponent from "/src/components/ru/Slider/SliderComponent.jsx";
 import "./HomePage.scss";
 import { motion } from "framer-motion";
 import { framerOpacity } from "/src/js/animationFramerSettings.js";

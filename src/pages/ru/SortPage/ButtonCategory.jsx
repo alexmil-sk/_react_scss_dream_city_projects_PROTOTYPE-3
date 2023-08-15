@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion';
 import "/src/styles/index.scss";
 import "./ButtonCategory.scss";
 

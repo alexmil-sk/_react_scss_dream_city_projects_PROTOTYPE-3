@@ -1,7 +1,7 @@
 import "./PostItemEditPage.scss";
 import { getPostItem } from "/src/js/getPostItem.js";
 import { useNavigation, Link, useLoaderData, useActionData } from "react-router-dom";
-import EditPost from "/src/components/EditPost/EditPost.jsx";
+import EditPost from "/src/components/ru/EditPost/EditPost.jsx";
 
 
 function PostItemEditPage() {

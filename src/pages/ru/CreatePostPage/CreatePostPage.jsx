@@ -1,5 +1,5 @@
 import "./CreatePostPage.scss";
-import NewPost from "/src/components/NewPost/NewPost.jsx";
+import NewPost from "/src/components/ru/NewPost/NewPost.jsx";
 import { redirect, useNavigation, Link } from "react-router-dom";
 
 

@@ -1,7 +1,7 @@
 import "./PostsPage.scss";
 import { Suspense } from "react";
 import { Link, useSearchParams, useLoaderData, Await, useAsyncValue, json } from "react-router-dom";
-import SearchComponent from "/src/components/Search/SearchComponent.jsx";
+import SearchComponent from "/src/components/ru/Search/SearchComponent.jsx";
 import { motion } from "framer-motion";
 import { framerFallingDown } from "/src/js/animationFramerSettings.js";
 

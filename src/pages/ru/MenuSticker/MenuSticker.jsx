@@ -1,4 +1,4 @@
-import { useTransform, motion, useScroll, useMotionValueEvent } from 'framer-motion';
+import { useTransform, motion, useScroll } from 'framer-motion';
 import { framerFallingDown } from "/src/js/animationFramerSettings.js";
 
 

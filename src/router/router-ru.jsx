@@ -1,0 +1,16 @@
+export Layout as Layout from "/src/components/ru/Layout/Layout.jsx";
+import HomePage from "/src/pages/ru/HomePage/HomePage.jsx";
+import ObjectPage from "/src/pages/ru/ObjectPage/ObjectPage.jsx";
+import NotFoundPage from "/src/pages/ru/NotFoundPage/NotFoundPage.jsx";
+import IntroPage from "/src/pages/ru/IntroPage/IntroPage.jsx";
+import ContactsPage from "/src/pages/ru/ContactsPage/ContactsPage.jsx";
+import PostsPage, { loaderPosts } from "/src/pages/ru/PostsPage/PostsPage.jsx";
+import PostItemPage, { loaderPostItem } from "/src/pages/ru/PostItemPage/PostItemPage.jsx";
+import PostItemEditPage, { loaderEditPost, editPostAction } from "/src/pages/ru/PostItemEditPage/PostItemEditPage.jsx";
+import CreatePostPage, { createPostAction } from "/src/pages/ru/CreatePostPage/CreatePostPage.jsx";
+import OurTeam from "/src/pages/ru/OurTeam/OurTeam.jsx";
+import OurFotos from "/src/pages/ru/OurFotos/OurFotos.jsx";
+import Menu from "/src/pages/ru/Menu/Menu.jsx";
+import MenuSticker from "/src/pages/ru/MenuSticker/MenuSticker.jsx";
+import SortPage from "/src/pages/ru/SortPage/SortPage.jsx";
+import TodosPage from "/src/pages/ru/TodosPage/TodosPage.jsx";

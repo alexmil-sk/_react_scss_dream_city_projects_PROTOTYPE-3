@@ -1,5 +1,5 @@
 import "./Menu.scss";
-import MenuMotion from "/src/components/MenuMotion/MenuMotion.jsx";
+import MenuMotion from "/src/components/ru/MenuMotion/MenuMotion.jsx";
 
 function Menu() {
 	return (
