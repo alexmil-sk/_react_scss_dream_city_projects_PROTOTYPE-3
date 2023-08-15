@@ -20,8 +20,8 @@ function PostItemEditPage() {
 					submitting={navigation.state === 'submitting'}
 				/>
 				<div className="block__btn">
-					<Link to="/posts"><button name="posts-list">To List of Posts</button></Link>
-					<Link to={`/posts/${id}`}><button name="back">Back</button></Link>
+					<Link to="/ru/posts"><button name="posts-list">To List of Posts</button></Link>
+					<Link to={`/ru/posts/${id}`}><button name="back">Back</button></Link>
 				</div>
 			</div>
 		</div>

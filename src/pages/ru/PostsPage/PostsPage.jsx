@@ -38,7 +38,7 @@ function handlerMappingArrayPosts(array, titleQuery, startsLatest) {
 					variants={liMotionSettings}
 					custom={i}
 				>
-					<Link to={`/posts/${post.id}`} >
+					<Link to={`/ru/posts/${post.id}`} >
 						<li
 							style={{ listStyle: 'square', lineHeight: 1.5, fontSize: '25px' }}
 						>

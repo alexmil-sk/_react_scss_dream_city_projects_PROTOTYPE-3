@@ -54,8 +54,8 @@ function PostItemPage() {
 						<Comments />
 					</Await>
 				</Suspense>
-				<Link to="/posts"><button name="list">To List of Posts</button></Link>
-				<Link	to={`/posts/${id}/edit`}>
+				<Link to="/ru/posts"><button name="list">To List of Posts</button></Link>
+				<Link	to={`/ru/posts/${id}/edit`}>
 					<button name="edit">Edit</button>
 				</Link>
 			</div>
