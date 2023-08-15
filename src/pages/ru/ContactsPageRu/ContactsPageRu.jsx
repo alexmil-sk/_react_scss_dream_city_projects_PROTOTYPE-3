@@ -1,11 +1,11 @@
-import "./ContactsPage.scss";
+import "./ContactsPageRu.scss";
 import CastomLink from "/src/UI/CastomLinkUI/CastomLinkUI.jsx";
 import { Link, Outlet } from "react-router-dom";
 import { motion } from "framer-motion"
 import { framerFallingDown } from "/src/js/animationFramerSettings.js";
 
 
-function ContactsPage() {
+function ContactsPageRu() {
 
 	const titleMotionSettings = {
 		hidden: {
@@ -119,4 +119,4 @@ function ContactsPage() {
 	)
 }
 
-export default ContactsPage;
+export default ContactsPageRu;

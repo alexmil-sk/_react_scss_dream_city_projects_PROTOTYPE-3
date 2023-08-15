@@ -2,7 +2,7 @@ import Layout from "/src/components/ru/Layout/Layout.jsx";
 import HomePage from "/src/pages/ru/HomePage/HomePage.jsx";
 import ObjectPage from "/src/pages/ru/ObjectPage/ObjectPage.jsx";
 import NotFoundPage from "/src/pages/ru/NotFoundPage/NotFoundPage.jsx";
-import ContactsPage from "/src/pages/ru/ContactsPage/ContactsPage.jsx";
+import ContactsPageRu from "/src/pages/ru/ContactsPageRu/ContactsPageRu.jsx";
 import PostsPage from "/src/pages/ru/PostsPage/PostsPage.jsx";
 import PostItemPage from "/src/pages/ru/PostItemPage/PostItemPage.jsx";
 import PostItemEditPage from "/src/pages/ru/PostItemEditPage/PostItemEditPage.jsx";
@@ -19,7 +19,7 @@ export {
 	HomePage,
 	ObjectPage,
 	NotFoundPage,
-	ContactsPage,
+	ContactsPageRu,
 	PostsPage,
 	PostItemPage,
 	PostItemEditPage,

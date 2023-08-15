@@ -4,11 +4,12 @@ import HomePageSk from "/src/pages/sk/HomePageSk/HomePageSk.jsx";
 
 import IntroPage from "/src/pages/IntroPage/IntroPage.jsx";
 
-import { Layout,
-HomePage,
+import {
+	Layout,
+	HomePage,
 	ObjectPage,
 	NotFoundPage,
-	ContactsPage,
+	ContactsPageRu,
 	PostsPage,
 	PostItemPage,
 	PostItemEditPage,
@@ -18,7 +19,8 @@ HomePage,
 	Menu,
 	MenuSticker,
 	SortPage,
-	TodosPage } from "./router-ru.jsx";
+	TodosPage
+} from "./router-ru.jsx";
 
 
 import { loaderPosts } from "/src/pages/ru/PostsPage/PostsPage.jsx";
@@ -48,7 +50,7 @@ const router = createBrowserRouter([
 			},
 			{
 				path: "contacts",
-				element: <ContactsPage />,
+				element: <ContactsPageRu />,
 				children: [
 					{
 						path: "fotos",
