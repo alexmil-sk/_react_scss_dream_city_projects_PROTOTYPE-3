@@ -1,4 +1,4 @@
-import "./SortPage.scss";
+import "./SortPageRu.scss";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import ButtonCategory from "./ButtonCategory.jsx";
@@ -8,7 +8,7 @@ import MenuMotion from "/src/components/ru/MenuMotion/MenuMotion.jsx";
 import { framerFallingDown } from "/src/js/animationFramerSettings.js";
 
 
-function SortPage() {
+function SortPageRu() {
 
 	const [cards, setCards] = useState(data);
 	const [selected, setSelected] = useState("ALL");
@@ -79,4 +79,4 @@ function SortPage() {
 	)
 }
 
-export default SortPage;
+export default SortPageRu;

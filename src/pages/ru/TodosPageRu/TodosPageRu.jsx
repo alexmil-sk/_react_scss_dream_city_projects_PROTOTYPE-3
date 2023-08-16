@@ -1,4 +1,4 @@
-import "./TodosPage.scss";
+import "./TodosPageRu.scss";
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import CreateTodo from "./CreateTodo.jsx";
@@ -10,7 +10,7 @@ const defaultTodos = [
 	{ id: 3, title: "Use Recorder component", completed: false }
 ];
 
-function TodosPage() {
+function TodosPageRu() {
 
 
 
@@ -54,4 +54,4 @@ function TodosPage() {
 	)
 }
 
-export default TodosPage;
+export default TodosPageRu;

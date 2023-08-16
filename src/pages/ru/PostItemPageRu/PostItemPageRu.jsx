@@ -1,7 +1,7 @@
 import { getPostItem } from "/src/js/getPostItem.js";
 import { getPostComments } from "/src/js/getPostComments.js";
 import { Suspense } from "react";
-import "./PostItemPage.scss";
+import "./PostItemPageRu.scss";
 import { Link, useLoaderData, useAsyncValue, Await } from "react-router-dom";
 
 function Post() {
@@ -35,7 +35,7 @@ function Comments() {
 }
 
 
-function PostItemPage() {
+function PostItemPageRu() {
 
 	const { post, comments, id } = useLoaderData();
 
@@ -71,4 +71,4 @@ export const loaderPostItem = async ({ params }) => {
 	return { post: await getPostItem(id), comments: getPostComments(id), id };
 }
 
-export default PostItemPage;
+export default PostItemPageRu;

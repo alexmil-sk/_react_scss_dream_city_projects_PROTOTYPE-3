@@ -1,33 +1,29 @@
 import Layout from "/src/components/ru/Layout/Layout.jsx";
 import HomePageRu from "/src/pages/ru/HomePageRu/HomePageRu.jsx";
-import ObjectPage from "/src/pages/ru/ObjectPage/ObjectPage.jsx";
-import NotFoundPage from "/src/pages/ru/NotFoundPage/NotFoundPage.jsx";
+import ObjectPageSliderComponentRu from "/src/pages/ru/ObjectPageRu/ObjectPageRu.jsx";
 import ContactsPageRu from "/src/pages/ru/ContactsPageRu/ContactsPageRu.jsx";
-import PostsPage from "/src/pages/ru/PostsPage/PostsPage.jsx";
-import PostItemPage from "/src/pages/ru/PostItemPage/PostItemPage.jsx";
-import PostItemEditPage from "/src/pages/ru/PostItemEditPage/PostItemEditPage.jsx";
+import PostsPageRu from "/src/pages/ru/PostsPageRu/PostsPageRu.jsx";
+import PostItemPageRu from "/src/pages/ru/PostItemPageRu/PostItemPageRu.jsx";
+import PostItemEditPageRu from "/src/pages/ru/PostItemEditPageRu/PostItemEditPageRu.jsx";
 import CreatePostPageRu from "/src/pages/ru/CreatePostPageRu/CreatePostPageRu.jsx";
-import OurTeam from "/src/pages/ru/OurTeam/OurTeam.jsx";
-import OurFotos from "/src/pages/ru/OurFotos/OurFotos.jsx";
-import Menu from "/src/pages/ru/Menu/Menu.jsx";
-import MenuSticker from "/src/pages/ru/MenuSticker/MenuSticker.jsx";
-import SortPage from "/src/pages/ru/SortPage/SortPage.jsx";
-import TodosPage from "/src/pages/ru/TodosPage/TodosPage.jsx";
+import OurTeamRu from "/src/pages/ru/OurTeamRu/OurTeamRu.jsx";
+import OurFotosRu from "/src/pages/ru/OurFotosRu/OurFotosRu.jsx";
+import MenuStickerRu from "/src/pages/ru/MenuStickerRu/MenuStickerRu.jsx";
+import SortPageRu from "/src/pages/ru/SortPageRu/SortPageRu.jsx";
+import TodosPageRu from "/src/pages/ru/TodosPageRu/TodosPageRu.jsx";
 
 export {
 	Layout,
 	HomePageRu,
-	ObjectPage,
-	NotFoundPage,
+	ObjectPageSliderComponentRu,
 	ContactsPageRu,
-	PostsPage,
-	PostItemPage,
-	PostItemEditPage,
+	PostsPageRu,
+	PostItemPageRu,
+	PostItemEditPageRu,
 	CreatePostPageRu,
-	OurTeam,
-	OurFotos,
-	Menu,
-	MenuSticker,
-	SortPage,
-	TodosPage,
+	OurTeamRu,
+	OurFotosRu,
+	MenuStickerRu,
+	SortPageRu,
+	TodosPageRu,
 };

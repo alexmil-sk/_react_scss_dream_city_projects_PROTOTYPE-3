@@ -1,11 +1,11 @@
 import { Form } from "react-router-dom";
-import "./EditPost.scss";
+import "./EditPostRu.scss";
 
 
-function EditPost({ id, title, body, userId, submitting }) {
+function EditPostRu({ id, title, body, userId, submitting }) {
 	return (
 		<>
-			<Form action={`/posts/${id}/edit`} method="post" className="edit-post__form">
+			<Form action={`/ru/posts/${id}/edit`} method="post" className="edit-post__form">
 				<div className="form__title">
 					<label htmlFor="title">Title</label>
 					<input
@@ -36,4 +36,4 @@ function EditPost({ id, title, body, userId, submitting }) {
 	)
 }
 
-export default EditPost;
+export default EditPostRu;

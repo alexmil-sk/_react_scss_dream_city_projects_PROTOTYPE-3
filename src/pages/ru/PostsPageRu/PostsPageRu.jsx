@@ -1,4 +1,4 @@
-import "./PostsPage.scss";
+import "./PostsPageRu.scss";
 import { Suspense } from "react";
 import { Link, useSearchParams, useLoaderData, Await, useAsyncValue, json } from "react-router-dom";
 import SearchComponent from "/src/components/ru/Search/SearchComponent.jsx";
@@ -84,7 +84,7 @@ function FilterPosts() {
 //==================================================================
 
 
-function PostsPage() {
+function PostsPageRu() {
 
 	const { posts } = useLoaderData();
 	const [searchParams, setSearchParams] = useSearchParams();
@@ -187,4 +187,4 @@ export const loaderPosts = async () => {
 	return { posts: getPosts() };
 }
 
-export default PostsPage;
+export default PostsPageRu;

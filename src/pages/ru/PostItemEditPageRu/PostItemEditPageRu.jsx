@@ -1,10 +1,10 @@
-import "./PostItemEditPage.scss";
+import "./PostItemEditPageRu.scss";
 import { getPostItem } from "/src/js/getPostItem.js";
 import { useNavigation, Link, useLoaderData, useActionData } from "react-router-dom";
-import EditPost from "/src/components/ru/EditPost/EditPost.jsx";
+import EditPostRu from "/src/components/ru/EditPostRu/EditPostRu.jsx";
 
 
-function PostItemEditPage() {
+function PostItemEditPageRu() {
 
 	const { post, id } = useLoaderData();
 	const navigation = useNavigation();
@@ -15,7 +15,7 @@ function PostItemEditPage() {
 			<div className="post-edit__container">
 				{data?.message && <h2 style={{fontSize: '30px', color: 'blue', backgroundColor: 'lightblue'}}>{data.message}</h2>}
 				<h1>Post Item Edit Page - {id}</h1>
-				<EditPost
+				<EditPostRu
 					{...post}
 					submitting={navigation.state === 'submitting'}
 				/>
@@ -58,4 +58,4 @@ export const loaderEditPost = async ({ params }) => {
 	return { post: await getPostItem(id), id };
 }
 
-export default PostItemEditPage;
+export default PostItemEditPageRu;

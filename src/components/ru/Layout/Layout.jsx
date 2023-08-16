@@ -1,7 +1,7 @@
 import "./Layout.scss";
 import { Outlet } from "react-router-dom";
 import Navigation from "/src/components/ru/Navigation/Navigation.jsx";
-import Footer from "/src/components/ru/Footer/Footer.jsx";
+import FooterRu from "/src/components/ru/FooterRu/FooterRu.jsx";
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
@@ -30,7 +30,7 @@ function Layout() {
 				isActiveHeader={isActiveHeader}
 			/>
 				<Outlet />
-			<Footer
+			<FooterRu
 				isActiveHeader={isActiveHeader}
 			/>
 		</>

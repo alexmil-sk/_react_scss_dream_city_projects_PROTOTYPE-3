@@ -1,6 +1,6 @@
-import "./OurTeam.scss";
+import "./OurTeamRu.scss";
 
-function OurTeam() {
+function OurTeamRu() {
 	return (
 		<div className="our-team">
 			<div className="our-team__container">
@@ -10,4 +10,4 @@ function OurTeam() {
 	)
 }
 
-export default OurTeam;
+export default OurTeamRu;

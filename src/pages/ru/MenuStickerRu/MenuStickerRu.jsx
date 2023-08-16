@@ -2,7 +2,7 @@ import { useTransform, motion, useScroll } from 'framer-motion';
 import { framerFallingDown } from "/src/js/animationFramerSettings.js";
 
 
-export default function MenuSticker() {
+export default function MenuStickerRu() {
 
 	const { scrollY } = useScroll();
 

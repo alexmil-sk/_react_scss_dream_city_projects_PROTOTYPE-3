@@ -1,22 +1,22 @@
 import { createBrowserRouter } from "react-router-dom";
 import IntroPage from "/src/pages/IntroPage/IntroPage.jsx";
+import NotFoundPage from "/src/pages/NotFoundPage/NotFoundPage.jsx";
+
 
 import {
 	Layout,
 	HomePageRu,
-	ObjectPage,
-	NotFoundPage,
+	ObjectPageSliderComponentRu,
 	ContactsPageRu,
-	PostsPage,
-	PostItemPage,
-	PostItemEditPage,
+	PostsPageRu,
+	PostItemPageRu,
+	PostItemEditPageRu,
 	CreatePostPageRu,
-	OurTeam,
-	OurFotos,
-	Menu,
-	MenuSticker,
-	SortPage,
-	TodosPage
+	OurTeamRu,
+	OurFotosRu,
+	MenuStickerRu,
+	SortPageRu,
+	TodosPageRu
 } from "./router-ru.jsx";
 
 import {
@@ -25,9 +25,9 @@ import {
 } from "./router-sk.jsx";
 
 
-import { loaderPosts } from "/src/pages/ru/PostsPage/PostsPage.jsx";
-import { loaderPostItem } from "/src/pages/ru/PostItemPage/PostItemPage.jsx";
-import { loaderEditPost, editPostAction } from "/src/pages/ru/PostItemEditPage/PostItemEditPage.jsx";
+import { loaderPosts } from "/src/pages/ru/PostsPageRu/PostsPageRu.jsx";
+import { loaderPostItem } from "/src/pages/ru/PostItemPageRu/PostItemPageRu.jsx";
+import { loaderEditPost, editPostAction } from "/src/pages/ru/PostItemEditPageRu/PostItemEditPageRu.jsx";
 import { createPostAction } from "/src/pages/ru/CreatePostPageRu/CreatePostPageRu.jsx";
 
 import ErrorBoundary from "../UI/ErrorBoundary/ErrorBoundary.jsx";
@@ -39,6 +39,10 @@ const router = createBrowserRouter([
 		element: <IntroPage />
 	},
 	{
+		path: "*",
+		element: <NotFoundPage />
+	},
+	{
 		path: "/ru",
 		element: <Layout />,
 		children: [
@@ -48,7 +52,7 @@ const router = createBrowserRouter([
 			},
 			{
 				path: "objects",
-				element: <ObjectPage />,
+				element: <ObjectPageSliderComponentRu />,
 			},
 			{
 				path: "contacts",
@@ -56,11 +60,11 @@ const router = createBrowserRouter([
 				children: [
 					{
 						path: "fotos",
-						element: <OurFotos />
+						element: <OurFotosRu />
 					},
 					{
 						path: "team",
-						element: <OurTeam />
+						element: <OurTeamRu />
 					}
 				]
 			},
@@ -68,18 +72,18 @@ const router = createBrowserRouter([
 				path: "posts",
 				loader: loaderPosts,
 				errorElement: <ErrorBoundary />,
-				element: <PostsPage />
+				element: <PostsPageRu />
 			},
 			{
 				path: "posts/:id",
-				element: <PostItemPage />,
+				element: <PostItemPageRu />,
 				loader: loaderPostItem,
 				errorElement: <ErrorBoundary />,
 
 			},
 			{
 				path: "posts/:id/edit",
-				element: <PostItemEditPage />,
+				element: <PostItemEditPageRu />,
 				loader: loaderEditPost,
 				action: editPostAction,
 				errorElement: <ErrorBoundary />,
@@ -92,24 +96,16 @@ const router = createBrowserRouter([
 			},
 			{
 				path: "sort",
-				element: <SortPage />
-			},
-			{
-				path: "menu",
-				element: <Menu />
+				element: <SortPageRu />
 			},
 			{
 				path: "menusticker",
-				element: <MenuSticker />
+				element: <MenuStickerRu />
 			},
 			{
 				path: "todos",
-				element: <TodosPage />
+				element: <TodosPageRu />
 			},
-			{
-				path: "*",
-				element: <NotFoundPage />
-			}
 		]
 	},
 	{

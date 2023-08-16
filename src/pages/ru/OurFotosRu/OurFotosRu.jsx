@@ -1,6 +1,6 @@
-import "./OurFotos.scss";
+import "./OurFotosRu.scss";
 
-function OurFotos() {
+function OurFotosRu() {
 	return (
 		<div className="our-fotos">
 			<div className="our-fotos__container">
@@ -10,4 +10,4 @@ function OurFotos() {
 	)
 }
 
-export default OurFotos;
+export default OurFotosRu;

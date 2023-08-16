@@ -1,7 +1,6 @@
-import { useEffect, useState } from "react";
-import "./Footer.scss";
+import "./FooterRu.scss";
 
-function FooterComponent({ isActiveHeader }) {
+function FooterComponentRu({ isActiveHeader }) {
 
 
 	return (
@@ -23,4 +22,4 @@ function FooterComponent({ isActiveHeader }) {
 	)
 }
 
-export default FooterComponent;
+export default FooterComponentRu;

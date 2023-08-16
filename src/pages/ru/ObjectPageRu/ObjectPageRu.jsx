@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import './ObjectPage.scss';
+import './ObjectPageRu.scss';
 import { Navigation, Parallax, Mousewheel, Keyboard, Scrollbar, Pagination, FreeMode } from 'swiper/modules';
 import { motion } from "framer-motion";
 import { framerOpacityObjects } from "/src/js/animationFramerSettings.js";
@@ -14,7 +14,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
 
-function SliderComponent() {
+function ObjectPageSliderComponentRu() {
 
 	const [sliderObject, setSliderObject] = useState({});
 	const [isActiveIndex, setIsActiveIndex] = useState(0);
@@ -172,4 +172,4 @@ function SliderComponent() {
 	)
 }
 
-export default SliderComponent;
+export default ObjectPageSliderComponentRu;
