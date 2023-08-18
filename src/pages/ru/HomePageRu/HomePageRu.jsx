@@ -1,8 +1,8 @@
 
 // import IntroComponent from "../../components/Intro/IntroComponent.jsx";
 import ObjectsListComponentRu from "/src/components/ru/ObjectsListRu/ObjectsListComponentRu.jsx";
-import GalleryComponent from "/src/components/ru/Gallery/GalleryComponent.jsx";
-import SliderComponent from "/src/components/ru/Slider/SliderComponent.jsx";
+import ObjectCardComponentRu from "/src/components/ru/ObjectCardComponentRu/ObjectCardComponentRu.jsx";
+import SliderComponentRu from "/src/components/ru/SliderComponentRu/SliderComponentRu.jsx";
 import "./HomePageRu.scss";
 import { motion } from "framer-motion";
 import { framerOpacity } from "/src/js/animationFramerSettings.js";
@@ -20,7 +20,7 @@ function HomePageRu() {
 			
 			<div className="fullscreen foto__container_1"></div>
 
-			<SliderComponent />
+			<SliderComponentRu />
 
 			<div className="fullscreen foto__container_2"></div>
 
@@ -41,7 +41,7 @@ function HomePageRu() {
 
 			<div className="fullscreen foto__container_7"></div>
 
-			<GalleryComponent />
+			<ObjectCardComponentRu />
 
 		</motion.div >
 	)

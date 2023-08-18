@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
 
-import "./SearchComponent.scss";
+import "./SearchComponentRu.scss";
 
-function SearchComponent({titleQuery,	postIdQuery,checkboxLatest }) {
+function SearchComponentRu({titleQuery,	postIdQuery,checkboxLatest }) {
 
 	const [searchTitleValue, setSearchTitleValue] = useState(titleQuery);
 	const [searchPostIdValue, setSearchPostIdValue] = useState(postIdQuery);
@@ -77,4 +77,4 @@ function SearchComponent({titleQuery,	postIdQuery,checkboxLatest }) {
 	)
 }
 
-export default SearchComponent;
+export default SearchComponentRu;

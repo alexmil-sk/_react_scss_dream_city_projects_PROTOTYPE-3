@@ -1,7 +1,7 @@
 import "./PostsPageRu.scss";
 import { Suspense } from "react";
 import { Link, useSearchParams, useLoaderData, Await, useAsyncValue, json } from "react-router-dom";
-import SearchComponent from "/src/components/ru/Search/SearchComponent.jsx";
+import SearchComponentRu from "/src/components/ru/SearchComponentRu/SearchComponentRu.jsx";
 import { motion } from "framer-motion";
 import { framerFallingDown } from "/src/js/animationFramerSettings.js";
 
@@ -106,7 +106,7 @@ function PostsPageRu() {
 
 				{/* <SEARCH BLOK> =============================== */}
 
-				<SearchComponent
+				<SearchComponentRu
 					titleQuery={titleQuery}
 					postIdQuery={postIdQuery}
 					checkboxLatest={checkboxLatest}

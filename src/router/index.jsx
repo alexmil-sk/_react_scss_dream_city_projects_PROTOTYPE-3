@@ -4,7 +4,7 @@ import NotFoundPage from "/src/pages/NotFoundPage/NotFoundPage.jsx";
 
 
 import {
-	Layout,
+	LayoutRu,
 	HomePageRu,
 	ObjectPageSliderComponentRu,
 	ContactsPageRu,
@@ -44,7 +44,7 @@ const router = createBrowserRouter([
 	},
 	{
 		path: "/ru",
-		element: <Layout />,
+		element: <LayoutRu />,
 		children: [
 			{
 				path: "home",
@@ -119,9 +119,5 @@ const router = createBrowserRouter([
 		]
 	}
 ]);
-
-
-
-
 
 export default router;

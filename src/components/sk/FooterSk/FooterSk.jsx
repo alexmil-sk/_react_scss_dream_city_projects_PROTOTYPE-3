@@ -1,6 +1,6 @@
 import "./FooterSk.scss";
 
-function FooterComponentSk({ isActiveHeader }) {
+function FooterSk({ isActiveHeader }) {
 
 
 	return (
@@ -22,4 +22,4 @@ function FooterComponentSk({ isActiveHeader }) {
 	)
 }
 
-export default FooterComponentSk;
+export default FooterSk;

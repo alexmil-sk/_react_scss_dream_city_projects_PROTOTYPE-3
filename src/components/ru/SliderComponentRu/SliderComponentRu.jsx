@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import './SliderComponent.scss';
+import './SliderComponentRu.scss';
 import { Navigation, FreeMode, Thumbs, Autoplay } from 'swiper/modules';
 
 
@@ -10,7 +10,7 @@ import 'swiper/css/free-mode';
 import 'swiper/css/navigation';
 
 
-function SliderComponent() {
+function SliderComponentRu() {
 
 	const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
@@ -123,4 +123,4 @@ function SliderComponent() {
 	)
 }
 
-export default SliderComponent;
+export default SliderComponentRu;

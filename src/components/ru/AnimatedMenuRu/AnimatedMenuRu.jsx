@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { motion } from 'framer-motion';
-import "./MenuMotion.scss";
+import "./AnimatedMenuRu.scss";
 
 const menuElements = ['MenuShort', 'MenuTwooooooooooo', 'MenuItem Normal'];
 
 //=================================================================================
 
-function AnimatedMenu() {
+function AnimatedMenuRu() {
 
 	const [activeIndex, setActiveIndex] = useState(0);
 
@@ -26,7 +26,7 @@ function AnimatedMenu() {
 	)
 }
 
-export default AnimatedMenu;
+export default AnimatedMenuRu;
 
 //=================================================================================
 

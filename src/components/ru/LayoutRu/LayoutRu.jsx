@@ -1,12 +1,12 @@
-import "./Layout.scss";
+import "./LayoutRu.scss";
 import { Outlet } from "react-router-dom";
-import Navigation from "/src/components/ru/Navigation/Navigation.jsx";
+import NavigationRu from "/src/components/ru/NavigationRu/NavigationRu.jsx";
 import FooterRu from "/src/components/ru/FooterRu/FooterRu.jsx";
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
 
-function Layout() {
+function LayoutRu() {
 
 	let location = useLocation();
 
@@ -25,7 +25,7 @@ function Layout() {
 
 	return (
 		<>
-			<Navigation
+			<NavigationRu
 				resetHeaderMenu={resetHeaderMenu}
 				isActiveHeader={isActiveHeader}
 			/>
@@ -37,4 +37,4 @@ function Layout() {
 	)
 }
 
-export default Layout;
+export default LayoutRu;

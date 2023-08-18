@@ -19,7 +19,17 @@
 			justify-content: center;
 			height: 60px;
 			.footer__text {
-				@include fontType("AdventPro Bold", null, 1.2, white);
+				width: 100%;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				margin: 0 100px;
+				span:nth-child(1) {
+					@include fontType("AdventPro Bold", 2rem, 1.2, lightblue);
+				}
+				span:nth-child(2) {
+					@include fontType("AdventPro Regular", 1.2rem, 1.2, #efc3e6);
+				}
 			}
 		}
 	}

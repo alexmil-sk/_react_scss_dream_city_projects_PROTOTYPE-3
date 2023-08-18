@@ -1,7 +1,7 @@
 import { useState } from "react";
-import './GalleryComponent.scss';
+import './ObjectCardComponentRu.scss';
 
-function GalleryComponent() {
+function ObjectCardComponentRu() {
 
 	const [font, setFont] = useState(1);
 
@@ -66,7 +66,7 @@ function GalleryComponent() {
 									</ul>
 								</div>
 								<div className="residence__image">
-									<img src="images/residence.webp" alt="popular_residence_img" />
+									<img src="/images/residence.webp" alt="popular_residence_img" />
 								</div>
 							</div>
 						</div>
@@ -239,4 +239,4 @@ function GalleryComponent() {
 	)
 }
 
-export default GalleryComponent;
+export default ObjectCardComponentRu;

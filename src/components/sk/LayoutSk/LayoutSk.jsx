@@ -1,12 +1,12 @@
 import "./LayoutSk.scss";
 import { Outlet } from "react-router-dom";
-import Navigation from "/src/components/ru/Navigation/Navigation.jsx";
+import NavigationSk from "/src/components/sk/NavigationSk/NavigationSk.jsx";
 import FooterSk from "/src/components/sk/FooterSk/FooterSk.jsx";
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
 
-function Layout() {
+function LayoutSk() {
 
 	let location = useLocation();
 
@@ -25,7 +25,7 @@ function Layout() {
 
 	return (
 		<>
-			<Navigation
+			<NavigationSk
 				resetHeaderMenu={resetHeaderMenu}
 				isActiveHeader={isActiveHeader}
 			/>
@@ -37,4 +37,4 @@ function Layout() {
 	)
 }
 
-export default Layout;
+export default LayoutSk;

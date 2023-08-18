@@ -1,19 +1,21 @@
 import { NavLink } from "react-router-dom";
-import "./Navigation.scss";
+import "./NavigationSk.scss";
 
-function Navigation({ isActiveHeader, resetHeaderMenu }) {
+function NavigationRu({ isActiveHeader, resetHeaderMenu }) {
 
 
 
 	const menuLinks = [
-		{ link: "/ru/home", value: 'Home' },
-		{ link: "/ru/objects", value: 'Objects' },
-		{ link: "/ru/contacts", value: 'Contacts' },
-		{ link: "/ru/posts", value: 'Posts' },
-		{ link: "/ru/sort", value: 'Sort' },
-		{ link: "/ru/menusticker", value: 'MenuSticker' },
-		{ link: "/ru/todos", value: 'Todos' },
-		{ link: "/", value: 'Language' }]
+		{ link: "/ru/home", value: 'Domov' },
+		{ link: "/ru/objects", value: 'Objekty' },
+		{ link: "/ru/contacts", value: 'Kontakty' },
+		{ link: "/ru/posts", value: 'Príspevky' },
+		{ link: "/ru/sort", value: 'Triedenie' },
+		{
+			link: "/ru/menusticker", value: 'Lepkavé menu' },
+		{
+			link: "/ru/todos", value: 'Zoznam úloh' },
+		{ link: "/", value: 'Výber_jazyka' }]
 
 	return (
 		<div className={`wrapper__header ${isActiveHeader ? 'loaded' : ''}`}>
@@ -39,4 +41,4 @@ function Navigation({ isActiveHeader, resetHeaderMenu }) {
 	)
 }
 
-export default Navigation;
+export default NavigationRu;

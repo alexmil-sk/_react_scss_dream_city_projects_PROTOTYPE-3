@@ -1,4 +1,4 @@
-import Layout from "/src/components/ru/Layout/Layout.jsx";
+import LayoutRu from "/src/components/ru/LayoutRu/LayoutRu.jsx";
 import HomePageRu from "/src/pages/ru/HomePageRu/HomePageRu.jsx";
 import ObjectPageSliderComponentRu from "/src/pages/ru/ObjectPageRu/ObjectPageRu.jsx";
 import ContactsPageRu from "/src/pages/ru/ContactsPageRu/ContactsPageRu.jsx";
@@ -13,7 +13,7 @@ import SortPageRu from "/src/pages/ru/SortPageRu/SortPageRu.jsx";
 import TodosPageRu from "/src/pages/ru/TodosPageRu/TodosPageRu.jsx";
 
 export {
-	Layout,
+	LayoutRu,
 	HomePageRu,
 	ObjectPageSliderComponentRu,
 	ContactsPageRu,
