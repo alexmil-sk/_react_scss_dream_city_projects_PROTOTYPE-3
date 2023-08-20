@@ -49,7 +49,7 @@ function SliderComponentRu() {
 			>
 				<SwiperSlide >
 					<img
-						src="/images/dubai-1.png"
+						src="/images/dubai-5.jpg"
 						alt="dubai-1"
 					/>
 				</SwiperSlide>
@@ -88,7 +88,7 @@ function SliderComponentRu() {
 			>
 				<SwiperSlide >
 					<img
-						src="/images/dubai-1.png"
+						src="/images/dubai-5.jpg"
 						alt="dubai-1"
 					/>
 				</SwiperSlide>

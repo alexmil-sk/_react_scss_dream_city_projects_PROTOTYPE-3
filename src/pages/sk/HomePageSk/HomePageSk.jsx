@@ -1,5 +1,4 @@
 
-// import IntroComponent from "../../components/Intro/IntroComponent.jsx";
 import ObjectsListComponentSk from "/src/components/sk/ObjectsListSk/ObjectsListComponentSk.jsx";
 import GalleryComponentSk from "/src/components/sk/GallerySk/GalleryComponentSk.jsx";
 import SliderComponentSk from "/src/components/sk/SliderSk/SliderComponentSk.jsx";

@@ -66,7 +66,7 @@ function GalleryComponentSk() {
 									</ul>
 								</div>
 								<div className="residence__image">
-									<img src="images/residence.webp" alt="popular_residence_img" />
+									<img src="/images/residence.webp" alt="popular_residence_img" />
 								</div>
 							</div>
 						</div>
@@ -84,7 +84,7 @@ function GalleryComponentSk() {
 									<div className="plans__item item">
 										<div className="item__row">
 											<div className="item__image">
-												<img src="plans/plan-1.jpg" alt="" />
+												<img src="/plans/plan-1.jpg" alt="" />
 											</div>
 											<div className="item__body">
 												<div
@@ -104,7 +104,7 @@ function GalleryComponentSk() {
 									<div className="plans__item item">
 										<div className="item__row">
 											<div className="item__image">
-												<img src="plans/plan-1.jpg" alt="plan-1" />
+												<img src="/plans/plan-1.jpg" alt="plan-1" />
 											</div>
 											<div className="item__body">
 												<div
@@ -124,7 +124,7 @@ function GalleryComponentSk() {
 									<div className="plans__item item">
 										<div className="item__row">
 											<div className="item__image">
-												<img src="plans/plan-1.jpg" alt="" />
+												<img src="/plans/plan-1.jpg" alt="" />
 											</div>
 											<div className="item__body">
 												<div
@@ -144,7 +144,7 @@ function GalleryComponentSk() {
 									<div className="plans__item item">
 										<div className="item__row">
 											<div className="item__image">
-												<img src="plans/plan-1.jpg" alt="" />
+												<img src="/plans/plan-1.jpg" alt="" />
 											</div>
 											<div className="item__body">
 												<div

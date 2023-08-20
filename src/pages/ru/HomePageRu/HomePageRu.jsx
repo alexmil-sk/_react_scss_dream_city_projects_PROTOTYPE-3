@@ -1,6 +1,5 @@
 
-// import IntroComponent from "../../components/Intro/IntroComponent.jsx";
-import ObjectsListComponentRu from "/src/components/ru/ObjectsListRu/ObjectsListComponentRu.jsx";
+import ObjectsListComponentRu from "/src/components/ru/ObjectsListComponentRu/ObjectsListComponentRu.jsx";
 import ObjectCardComponentRu from "/src/components/ru/ObjectCardComponentRu/ObjectCardComponentRu.jsx";
 import SliderComponentRu from "/src/components/ru/SliderComponentRu/SliderComponentRu.jsx";
 import "./HomePageRu.scss";
@@ -17,29 +16,157 @@ function HomePageRu() {
 			animate={'visible'}
 			variants={framerOpacity}
 		>
-			
-			<div className="fullscreen foto__container_1"></div>
+
+			<div className="fullscreen foto__container_title">
+				<div className="title__row">
+					<div className="logo__item">
+						<img src="/icons/marina_logo.png" alt="" />
+					</div>
+					<h1>Элегантная городская жизнь</h1>
+					<div className="undertitle">
+						<p>THE CONDOR MARINA STAR RESIDENCES</p>
+						<p>DUBAI JUMEIRAH VILLAGE CIRCLE</p>
+					</div>
+				</div>
+
+			</div>
+
+			<div className="fullscreen text__container_why-dubai">
+				<div className="why-dubai__content">
+					<h1>ПОЧЕМУ ДУБАЙ?</h1>
+					<div className="gallery-container">
+						<div className="gallery-container_row">
+							<div className="gallery__item">
+								<img src="/images/home/Dubai_fairtail_city.png" alt="" />
+								<p>Дубай - сказочный город с вечным летом!</p>
+							</div>
+							<div className="gallery__item">
+								<img src="/images/home/Modern_infrastracture.png" alt="" />
+								<p>С самой современной инфраструктурой</p>
+							</div>
+							<div className="gallery__item">
+								<img src="/images/home/People_from_everywhere.png" alt="" />
+								<p>и дружелюбными людьми со всего мира.</p>
+							</div>
+							<div className="gallery__item">
+								<img src="/images/home/Find_job.png" alt="" />
+								<p>Независимо от того, ищешь ли ты работу</p>
+							</div>
+							<div className="gallery__item">
+								<img src="/images/home/Planed_for_rest.png" alt="" />
+								<p>или планируешь отдых,</p>
+							</div>
+							<div className="gallery__item">
+								<img src="/images/home/Dubai_best_place.png" alt="" />
+								<p>Дубай станет лучшим местом для тебя</p>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
 
 			<SliderComponentRu />
 
-			<div className="fullscreen foto__container_2"></div>
-
-			<div className="fullscreen text__container_3">
-				<p>Тестовое предложение
-					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto quasi reiciendis deserunt molestias? Eum saepe vel sequi adipisci ullam, debitis exercitationem ut consequatur suscipit, at laudantium! Minus nostrum dicta eum quos! Iusto possimus vitae nobis aliquam! Reiciendis iste rem quidem, saepe totam obcaecati. Illum ab dolores libero unde commodi nam, nulla maiores! Commodi, pariatur possimus aperiam dicta illum vitae ea eius similique illo harum, atque facilis quam voluptatum totam, tempora nesciunt quia debitis molestiae asperiores voluptates ipsum nostrum ducimus doloribus? Esse veritatis eligendi, libero sit cupiditate at aliquid perferendis iste consequuntur est reprehenderit quia obcaecati! Nemo quasi commodi iure illum eum ducimus esse. Quis, ad vitae! Sit beatae accusamus dolore, animi recusandae doloremque ullam? Veritatis iure pariatur perferendis maiores! Saepe optio modi nemo accusamus vel officia laborum itaque dignissimos iure, iste consequuntur, numquam deserunt quaerat nisi ex dolorum cupiditate autem culpa cumque. Nam, odit. Odio, minus? Id dolorem obcaecati modi. Mollitia soluta rem dignissimos saepe suscipit quisquam modi autem ducimus corrupti, molestias perspiciatis voluptatibus, ipsam dolorum! Temporibus ratione, impedit expedita sed doloremque magnam perferendis maiores numquam rem, eveniet doloribus, blanditiis veritatis sequi! Eius, culpa laboriosam animi consequatur commodi voluptatibus itaque repellat excepturi nostrum iste. Id incidunt inventore cupiditate consequatur iure quidem porro beatae soluta, non eligendi minima ratione optio, odit est provident perspiciatis voluptas molestiae eum expedita. Aliquid consequuntur beatae doloribus necessitatibus fugiat. Consectetur necessitatibus deserunt molestias libero dolores quam quaerat fugiat cum maiores, deleniti temporibus cumque eum nulla, omnis neque enim quasi sint minus repellat adipisci? Natus quae consequatur sunt magnam blanditiis illo culpa praesentium consectetur modi, numquam dolorum corrupti labore, veniam sed neque impedit facere saepe quam! Reiciendis veniam consequuntur voluptatem tenetur dolorem, iure quis expedita quos repellendus. Repudiandae, consectetur dolor exercitationem nihil, ipsa, at doloribus quibusdam sed laborum quos fuga quae. Aliquam fuga tempora asperiores, rem optio necessitatibus reprehenderit odit consectetur placeat explicabo quas mollitia assumenda commodi vitae fugiat, doloremque eos soluta repudiandae. Debitis assumenda perspiciatis eveniet est ea dolor mollitia saepe, asperiores voluptate sequi eaque ratione fugit. Recusandae enim repellat tenetur aspernatur tempore nemo? Quod odio, sapiente voluptatibus aspernatur amet nihil aut, asperiores rem officia temporibus impedit libero atque obcaecati quis ipsam quia voluptatem alias mollitia harum at nulla! Alias odit deserunt veniam sed commodi, debitis a, atque explicabo voluptatibus consequuntur quas eaque hic esse nemo placeat dignissimos delectus, cupiditate id! Ipsa doloribus aliquam quisquam, hic, odio esse quibusdam iste possimus blanditiis itaque minus deleniti, nesciunt amet ratione facere voluptates et culpa tempore fuga laudantium? Exercitationem veritatis cumque provident accusamus facilis quas aut natus ipsa fugiat possimus perspiciatis nulla obcaecati aperiam, labore, recusandae nobis ab saepe? Deleniti sit optio amet fuga totam. Tempora nulla error, animi quis voluptatem est cupiditate ex. Dolorem ut iusto, magnam inventore, aliquam natus magni iure sequi facere consectetur ad esse enim quisquam! Quod provident quasi, voluptates impedit saepe, obcaecati sint minus dolores, harum ullam sunt nihil sit exercitationem veritatis. Minima fugiat nam quas assumenda cupiditate, aspernatur enim repellat labore ratione nihil? Officia esse quidem nisi, labore explicabo maxime eligendi, nam in rem non reiciendis possimus nesciunt dolorem ex porro. At, fugit vitae officia corporis quibusdam ipsum laudantium sed perferendis vel neque a, reiciendis eaque molestiae sapiente dolore quod adipisci saepe quaerat quasi quidem tenetur. Dicta a inventore commodi ab accusamus dolore, ipsam delectus? Facere neque dolor temporibus, doloribus expedita sit perferendis excepturi voluptate non quis asperiores vitae inventore illo similique accusantium corporis nobis dicta corrupti. Mollitia ducimus porro asperiores nulla maiores tenetur, expedita similique quaerat amet commodi magnam ad quia aliquid earum ab laudantium inventore tempora quod eaque provident? Quasi molestiae consectetur adipisci delectus at eligendi nulla, unde dolores amet distinctio nam et praesentium, qui quod asperiores beatae aut totam, sed exercitationem veritatis deleniti culpa necessitatibus expedita facilis. Maxime quae deserunt rerum, nesciunt ipsa minus adipisci ducimus, suscipit voluptate atque, inventore eos praesentium. Ullam nesciunt odit illum distinctio perspiciatis quo cumque consectetur dolores sunt, eligendi officiis iusto pariatur, quas neque dolorum? Placeat totam iure corrupti temporibus reprehenderit quas minus magnam quasi esse iste minima doloribus, laboriosam repudiandae consectetur asperiores corporis, possimus, aspernatur explicabo quidem. Iusto fugit pariatur enim harum tenetur earum repellendus expedita, ea eaque illum recusandae maiores inventore adipisci autem error quaerat eum possimus consequatur. Nihil sit nobis perferendis quas enim fugiat nesciunt incidunt qui libero ad exercitationem inventore quam ducimus, ratione reprehenderit non molestias nam labore aperiam. Illum eveniet eum inventore doloribus officia rem praesentium veritatis maxime iste distinctio, provident exercitationem, repellendus fugiat architecto numquam molestiae molestias! Quidem est animi velit in amet, neque repudiandae non corrupti ea doloribus minus, pariatur quod quae earum vero cupiditate porro esse cumque dolore ut magni at, praesentium qui. Necessitatibus, maxime at? Omnis repellat numquam assumenda error distinctio, consectetur voluptatibus minus eaque. Omnis pariatur ex nisi, distinctio dolores ratione cupiditate dolore esse ipsa consectetur tempora facilis possimus repellendus fugiat rem expedita aliquid enim mollitia! Est aliquam, quam voluptatem nulla laudantium magni dolorum dolores amet illum inventore sequi, laboriosam ad qui natus temporibus? Iure esse, eligendi unde non, dolores recusandae repudiandae ut ad dolorum accusantium quis sunt, in molestiae quae tenetur! Eligendi voluptas quo quaerat suscipit officiis animi vero vel nostrum aspernatur praesentium rem illum accusantium, ex, corporis numquam officia est qui iusto expedita laudantium, aliquam tenetur quas magni sunt. Cum tempora ipsam quibusdam sit aliquid. Asperiores totam sit possimus officia, porro voluptas minus. Id rerum sed ipsa, quasi, eos doloribus iste, cumque tempore architecto ipsum blanditiis? Neque aut illum corrupti assumenda nemo sed doloribus accusantium iusto similique quidem atque quae voluptatem iste deserunt tenetur laudantium veritatis, aliquam voluptatum delectus aliquid. Sint voluptates provident maxime aspernatur eum reprehenderit at, laborum itaque minus nemo illum natus et? Fuga mollitia a repellat accusantium neque. Repellendus tempora quis esse odit explicabo, officia quae? Accusamus dolorem tempora quisquam expedita facilis eum quae rem recusandae, culpa iusto voluptates quibusdam neque possimus. Repellendus, modi inventore. Minima aliquam ad ducimus nulla odit facere, recusandae autem? Ipsa provident accusamus assumenda architecto et placeat inventore distinctio eos, non nostrum accusantium illum esse nesciunt a fugit atque sunt nihil ipsum. Sunt nostrum autem eaque!</p>
+			<div className="fullscreen text__container_you-can">
+				<div className="you-can__content">
+					<h1>Здесь вы можете:</h1>
+					<div className="list__container">
+						<ul className="list__container_row">
+							<li className="list__item">
+								1.&nbsp;Отдыхать на лучшем из морских курортов, когда пожелаете.
+							</li>
+							<li className="list__item">
+								2.&nbsp;Каждый год получать гарантированные 5% дохода на инвестиции.
+							</li>
+							<li className="list__item">
+								3.&nbsp;Ежегодно получать 10-17% дохода на инвестиции, сдавая свое жилье в аренду.
+							</li>
+							<li className="list__item">
+								4.&nbsp;ВНЖ на срок от 2-х до 10 лет.
+							</li>
+						</ul>
+					</div>
+				</div>
 			</div>
 
-			<div className="fullscreen foto__container_4"></div>
+			<div className="fullscreen foto__container_one"></div>
+
+			<div className="fullscreen text__container_projects">
+				<div className="projects__content">
+					<h1>Предлагаем вам к покупке недвижимость
+						от застройщика <span>Condor Group (Dubai)</span>:</h1>
+
+					<div className="objects">
+						<div className="objects__row">
+							<div className="object__item foto__condor">
+								<div className="object__item_header">
+									<p>Condor Marina Star Residences</p>
+									<p>расположена на берегу моря в окружении прекрасных пляжей и рядом с Торговым центром Dubai Marina Mall</p>
+								</div>
+								<div className="object__item_footer">
+									<p>Адрес:</p>
+									<p>MARINA STAR, 14, AL SEBA STREET, DUBAI</p>
+									<p>СРОК СДАЧИ: СЕНТЯБРЬ 2023 ГОДА</p>
+								</div>
+							</div>
+							<div className="object__item foto__concept">
+								<div className="object__item_header">
+									<p>Concept 7 Residences </p>
+									<p>Очень перспективный проект расположенный в новом активно развивающемся районе Jumeirah Village Circle</p>
+								</div>
+								<div className="object__item_footer">
+									<p>Адрес:</p>
+									<p>DUBAI JUMEIRAH VILLAGE CIRCLE DUBAI</p>
+									<p>СРОК СДАЧИ: 2025 ГОД</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div className="fullscreen foto__container_two"></div>
+
+			<div className="fullscreen text__container_about-developer">
+				<div className="about-developer__content">
+					<div className="flex__container">
+						<h1>О застройщике</h1>
+						<div className="text">
+							<div className="text__container">
+								<p>Компания Condor Group основана в 1980 году в Объединенных Арабских Эмиратах и специализируется на проектировании и строительстве престижных жилых и гостиничных проектов.</p>
+								<p>Более 40 лет компания Condor создает роскошные здания, отели и больницы, которые органично вписываются в образ жизни людей, и имеет более 400 успешно завершенных проектов на Ближнем Востоке и в Азии.</p>
+								<p>Портфолио проектов Condor включает технологически сложные и знаковые проекты для государственного сектора ОАЭ и других многонациональных корпораций.
+								</p>
+							</div>
+						</div>
+						<div className="descriprion">
+							<div className="description__row">
+								<div className="item__element">
+									<p>400+</p>
+									<p>Реализованных проектов</p>
+								</div>
+								<div className="item__element">
+									<p>40+</p>
+									<p>Опыт работы более сорока лет</p>
+								</div>
+								<div className="item__element">
+									<p>1500+</p>
+									<p>Сотрудников в разных странах</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<div className="fullscreen foto__container_three"></div>
 
 			<ObjectsListComponentRu />
 
-			<div className="fullscreen foto__container_5"></div>
-
-			<div className="fullscreen text__container_6">
-				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto quasi reiciendis deserunt molestias? Eum saepe vel sequi adipisci ullam, debitis exercitationem ut consequatur suscipit, at laudantium! Minus nostrum dicta eum quos! Iusto possimus vitae nobis aliquam! Reiciendis iste rem quidem, saepe totam obcaecati. Illum ab dolores libero unde commodi nam, nulla maiores! Commodi, pariatur possimus aperiam dicta illum vitae ea eius similique illo harum, atque facilis quam voluptatum totam, tempora nesciunt quia debitis molestiae asperiores voluptates ipsum nostrum ducimus doloribus? Esse veritatis eligendi, libero sit cupiditate at aliquid perferendis iste consequuntur est reprehenderit quia obcaecati! Nemo quasi commodi iure illum eum ducimus esse. Quis, ad vitae! Sit beatae accusamus dolore, animi recusandae doloremque ullam? Veritatis iure pariatur perferendis maiores! Saepe optio modi nemo accusamus vel officia laborum itaque dignissimos iure, iste consequuntur, numquam deserunt quaerat nisi ex dolorum cupiditate autem culpa cumque. Nam, odit. Odio, minus? Id dolorem obcaecati modi. Mollitia soluta rem dignissimos saepe suscipit quisquam modi autem ducimus corrupti, molestias perspiciatis voluptatibus, ipsam dolorum! Temporibus ratione, impedit expedita sed doloremque magnam perferendis maiores numquam rem, eveniet doloribus, blanditiis veritatis sequi! Eius, culpa laboriosam animi consequatur commodi voluptatibus itaque repellat excepturi nostrum iste. Id incidunt inventore cupiditate consequatur iure quidem porro beatae soluta, non eligendi minima ratione optio, odit est provident perspiciatis voluptas molestiae eum expedita. Aliquid consequuntur beatae doloribus necessitatibus fugiat. Consectetur necessitatibus deserunt molestias libero dolores quam quaerat fugiat cum maiores, deleniti temporibus cumque eum nulla, omnis neque enim quasi sint minus repellat adipisci? Natus quae consequatur sunt magnam blanditiis illo culpa praesentium consectetur modi, numquam dolorum corrupti labore, veniam sed neque impedit facere saepe quam! Reiciendis veniam consequuntur voluptatem tenetur dolorem, iure quis expedita quos repellendus. Repudiandae, consectetur dolor exercitationem nihil, ipsa, at doloribus quibusdam sed laborum quos fuga quae. Aliquam fuga tempora asperiores, rem optio necessitatibus reprehenderit odit consectetur placeat explicabo quas mollitia assumenda commodi vitae fugiat, doloremque eos soluta repudiandae. Debitis assumenda perspiciatis eveniet est ea dolor mollitia saepe, asperiores voluptate sequi eaque ratione fugit. Recusandae enim repellat tenetur aspernatur tempore nemo? Quod odio, sapiente voluptatibus aspernatur amet nihil aut, asperiores rem officia temporibus impedit libero atque obcaecati quis ipsam quia voluptatem alias mollitia harum at nulla! Alias odit deserunt veniam sed commodi, debitis a, atque explicabo voluptatibus consequuntur quas eaque hic esse nemo placeat dignissimos delectus, cupiditate id! Ipsa doloribus aliquam quisquam, hic, odio esse quibusdam iste possimus blanditiis itaque minus deleniti, nesciunt amet ratione facere voluptates et culpa tempore fuga laudantium? Exercitationem veritatis cumque provident accusamus facilis quas aut natus ipsa fugiat possimus perspiciatis nulla obcaecati aperiam, labore, recusandae nobis ab saepe? Deleniti sit optio amet fuga totam. Tempora nulla error, animi quis voluptatem est cupiditate ex. Dolorem ut iusto, magnam inventore, aliquam natus magni iure sequi facere consectetur ad esse enim quisquam! Quod provident quasi, voluptates impedit saepe, obcaecati sint minus dolores, harum ullam sunt nihil sit exercitationem veritatis. Minima fugiat nam quas assumenda cupiditate, aspernatur enim repellat labore ratione nihil? Officia esse quidem nisi, labore explicabo maxime eligendi, nam in rem non reiciendis possimus nesciunt dolorem ex porro. At, fugit vitae officia corporis quibusdam ipsum laudantium sed perferendis vel neque a, reiciendis eaque molestiae sapiente dolore quod adipisci saepe quaerat quasi quidem tenetur. Dicta a inventore commodi ab accusamus dolore, ipsam delectus? Facere neque dolor temporibus, doloribus expedita sit perferendis excepturi voluptate non quis asperiores vitae inventore illo similique accusantium corporis nobis dicta corrupti. Mollitia ducimus porro asperiores nulla maiores tenetur, expedita similique quaerat amet commodi magnam ad quia aliquid earum ab laudantium inventore tempora quod eaque provident? Quasi molestiae consectetur adipisci delectus at eligendi nulla, unde dolores amet distinctio nam et praesentium, qui quod asperiores beatae aut totam, sed exercitationem veritatis deleniti culpa necessitatibus expedita facilis. Maxime quae deserunt rerum, nesciunt ipsa minus adipisci ducimus, suscipit voluptate atque, inventore eos praesentium. Ullam nesciunt odit illum distinctio perspiciatis quo cumque consectetur dolores sunt, eligendi officiis iusto pariatur, quas neque dolorum? Placeat totam iure corrupti temporibus reprehenderit quas minus magnam quasi esse iste minima doloribus, laboriosam repudiandae consectetur asperiores corporis, possimus, aspernatur explicabo quidem. Iusto fugit pariatur enim harum tenetur earum repellendus expedita, ea eaque illum recusandae maiores inventore adipisci autem error quaerat eum possimus consequatur. Nihil sit nobis perferendis quas enim fugiat nesciunt incidunt qui libero ad exercitationem inventore quam ducimus, ratione reprehenderit non molestias nam labore aperiam. Illum eveniet eum inventore doloribus officia rem praesentium veritatis maxime iste distinctio, provident exercitationem, repellendus fugiat architecto numquam molestiae molestias! Quidem est animi velit in amet, neque repudiandae non corrupti ea doloribus minus, pariatur quod quae earum vero cupiditate porro esse cumque dolore ut magni at, praesentium qui. Necessitatibus, maxime at? Omnis repellat numquam assumenda error distinctio, consectetur voluptatibus minus eaque. Omnis pariatur ex nisi, distinctio dolores ratione cupiditate dolore esse ipsa consectetur tempora facilis possimus repellendus fugiat rem expedita aliquid enim mollitia! Est aliquam, quam voluptatem nulla laudantium magni dolorum dolores amet illum inventore sequi, laboriosam ad qui natus temporibus? Iure esse, eligendi unde non, dolores recusandae repudiandae ut ad dolorum accusantium quis sunt, in molestiae quae tenetur! Eligendi voluptas quo quaerat suscipit officiis animi vero vel nostrum aspernatur praesentium rem illum accusantium, ex, corporis numquam officia est qui iusto expedita laudantium, aliquam tenetur quas magni sunt. Cum tempora ipsam quibusdam sit aliquid. Asperiores totam sit possimus officia, porro voluptas minus. Id rerum sed ipsa, quasi, eos doloribus iste, cumque tempore architecto ipsum blanditiis? Neque aut illum corrupti assumenda nemo sed doloribus accusantium iusto similique quidem atque quae voluptatem iste deserunt tenetur laudantium veritatis, aliquam voluptatum delectus aliquid. Sint voluptates provident maxime aspernatur eum reprehenderit at, laborum itaque minus nemo illum natus et? Fuga mollitia a repellat accusantium neque. Repellendus tempora quis esse odit explicabo, officia quae? Accusamus dolorem tempora quisquam expedita facilis eum quae rem recusandae, culpa iusto voluptates quibusdam neque possimus. Repellendus, modi inventore. Minima aliquam ad ducimus nulla odit facere, recusandae autem? Ipsa provident accusamus assumenda architecto et placeat inventore distinctio eos, non nostrum accusantium illum esse nesciunt a fugit atque sunt nihil ipsum. Sunt nostrum autem eaque!</p>
-			</div>
-
-			<div className="fullscreen foto__container_7"></div>
+			<div className="fullscreen foto__container_four"></div>
 
 			<ObjectCardComponentRu />
 
